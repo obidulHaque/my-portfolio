@@ -1,3 +1,4 @@
+import React from "react";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
@@ -6,7 +7,7 @@ import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 
-export default function Home() {
+const Home = () => {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <Navbar />
@@ -20,4 +21,6 @@ export default function Home() {
       <Footer />
     </main>
   );
-}
+};
+
+export default Home;
