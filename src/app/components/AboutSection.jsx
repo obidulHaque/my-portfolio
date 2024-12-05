@@ -28,8 +28,13 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Diploma in CSE (2022)</li>
+        <ul>Rangpur polytechnic Institute</ul>
+        <ul>GPA : 3.47 out of 4</ul>
+        <hr />
+        <li>Dakhil (Madrasah)</li>
+        <ul>Dhap Satgara Baitul Mukarram model Kamil Madrasha,Rangpur </ul>
+        <ul>GPA :4.78 out of 5</ul>
       </ul>
     ),
   },
@@ -49,7 +54,7 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/images/my-photo.jpg"
+          src="/images/1730974999208.jpg"
           width={500}
           height={500}
           alt="my image"
@@ -60,10 +65,11 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            working with NextJs, React, Zustand, Node.js, Express,MongoDB,
+            PostgreSQL, ThreeJs,Figma and Git. I am a quick learner and I am
+            always looking to expand my knowledge and skill set. I am a team
+            player and I am excited to work with others to create amazing
+            applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

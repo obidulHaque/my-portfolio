@@ -7,8 +7,9 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Green Bangla like Steadfast courier (Next Js)",
+    description:
+      "It’s a courier website And it it emphasizes teamwork. User Manual: user Account : Email : joyhoqe7@gmail.com password:joy000,Admin Account : Email :mksa.sazzad@gmail.com , Password : 123456 Skills: Next js, Tailwind CSS, Prisma, yup, Cloudinary, MongoDBetc",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -16,8 +17,9 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Bangladesh 2nd Liberation War Museum (Threejs)",
+    description:
+      "An interactive 3D experience developed with Three.js and GSAP.User Manual :Move using arrow keys: forward, backward, left, and right.Press 'S' to start movement and 'ESC' to exit.Engage in a virtual journey through Bangladesh's history.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -25,8 +27,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Mystery Message (next js)",
+    description:
+      "Users can send messages based on usernames, with a feature todisable message reception for privacy. Skills:Next js, Typescript, Node Js, Shadcn, Tailwind css,MongoDB",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -34,17 +37,19 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "ChatApp (Mern)",
+    description:
+      "User Manual: username: joy, Password:joy000 Skills :WebSocket,zustand,nodejs,expressjs,MongoDB,Render",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Animation website",
+    description:
+      "Skills: React Js, Tailwind CSS, framer motion, locomotive scroll",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -52,10 +57,37 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Interview App Project",
+    description: "I Create This app for a interviw perpacer",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "App"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 7,
+    title: "Runway App Design",
+    description: "it's a App Figma Design ",
+    image: "/images/projects/7.png",
+    tag: ["All", "Figma"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 8,
+    title: "Coffee Shop App Design",
+    description: "I Create This app for a interviw perpacer",
+    image: "/images/projects/8.png",
+    tag: ["All", "Figma"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 9,
+    title: "Ev Bike Website Design",
+    description: "I Create This app for a interviw perpacer",
+    image: "/images/projects/9.png",
+    tag: ["All", "Figma"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -97,8 +129,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="App"
+          isSelected={tag === "App"}
         />
         <ProjectTag
           onClick={handleTagChange}
